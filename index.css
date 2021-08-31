@@ -4,56 +4,63 @@
     font-size: 60px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    position: relative;
+    /* position: relative;
     top: 20px;
-    left: 150px;
-    margin: 25px;
+    left: 150px; */
+    margin: 200px ;
+    padding: 20px;
 }
 .l2{    
     font-size: 60px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     color: rgb(110, 110, 110);
-    position: relative;
-    top: 20px;
-    left: 100px;
-    margin: 25px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    margin: 0px 0px 0px 400px ;
+    padding: 10px;
 }
 .l3{
     font-size: 32px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     color: rgb(110, 110, 110);
-    position: relative;
-    top: 0px;
-    left: 600px;
-    margin: 10px;
+    position: absolute;
+    top: 15px;
+    right: 250px;
+    margin: 20px;
+    padding: 0px;
 }
 
 div h1 i{
       color: red;
-      position: relative;
-      left: 390px;
+      position: absolute;
+      right: 370px;
       top: 0px;
-      margin: 10px;
+      margin: 20px;
+      padding: 20px;
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-
+  margin: 50px 100px 50px 100px;
+  padding: 40px 40px 40px 40px;
 }
+
 .conti1{
     border: 1px solid red;
-    height: 300px;
-    width: 270px;
+    height: 350px;
+    width: 300px;
     border-radius: 20px;
-    position: relative;
-    left: 70px;
-    top: 0px;
-    margin-left: 100px;
-    margin-right: 40px;
-    margin-top: 20px;
+    /* position: relative; */
+    /* left: 70px; */
+    /* top: 50px; */
+   margin: 40px 40px 40px 40px;
+   padding: 20px 20px 20px 20px;
+    /* margin-right: 0px; */
+    /* margin-top: 20px; */
     box-shadow: 15px 15px 20px rgb(207, 207, 207);
 }
 .con{
@@ -84,20 +91,22 @@ div h1 i{
 
 
 .l4{
-    font-size: 20px;
+    font-size: 23px;
     font-family:'Montserrat', sans-serif;
     align-items: center;
     text-align: center;
     color: rgb(230, 70, 70);
     font-weight: lighter;
-    margin: 0px;
-    position: relative;
+    /* margin: 0px; */
+    /* position: relative;
     top: 40px;
-    left: 60px;
+    left: 60px; */
+    margin: 15px 0px 0px 15px;
+    padding: 10px;
     text-decoration: none;
 }
 .l5{
-    font-size: 16px;
+    font-size: 20px;
     font-family:'Montserrat', sans-serif;
     align-items: center;
     text-align: center;
@@ -105,24 +114,30 @@ div h1 i{
     font-weight: 400;
     font-stretch: extra-condensed;
     text-decoration: line-through;
-    margin: 0px;
-    position: relative;
-    left: 60px;
+    margin: 20px;
+    padding: 0px;
+    /* position: relative;
+    left: 60px; */
 }
 .pending{
-    position: relative;
-    left: 90px;
-    font-size: 18px;
+    /* position: relative;
+    left: 20px; */
+    font-size: 20px;
     font-weight: lighter;
+    margin: 20px;
+    padding: 10px;
 }
 #checkbox{
     position: relative;
-    right: 40px;
+    right: 20px;
+    margin: 10px;
+    /* bottom: 10px; */
+    /* padding: 5px; */
 }
 .hf{
     position: relative;
     /* line-height: 0.1em; */
-    width: 80%;
+    width: 96%;
     left: 25px;
     top: 45px;
     }
@@ -207,8 +222,8 @@ div h1 i{
         div h1 i{
               color: red;
               position: absolute;
-              left: 490px;
-              top: 65px;
+              left: 440px;
+              top: 30px;
               font-size: 60px;
         }
         
@@ -217,21 +232,21 @@ div h1 i{
             flex-direction: column;
             margin: 10px;
             margin-right: 10px;
-            padding: 5px;
+            padding: 10px;
 
             /* justify-content: space-evenly; */
         }
         .conti1{
             border: 1px solid red;
             height: 15vh;
-            width: 140vw;
+            width: 130vw;
             margin-left: 10px;
-            margin-right: 10px;
-            padding: 0px;
+            margin-right: 20px;
+            padding: 5px;
             border-radius: 20px;
             position: relative;
             left: 0px;
-            top: 50px;
+            top: 100px;
             box-shadow: 15px 15px 20px rgb(207, 207, 207);
         }
         
