@@ -5,8 +5,9 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     position: relative;
-    top: 100px;
-    left: 120px;
+    top: 20px;
+    left: 150px;
+    margin: 25px;
 }
 .l2{    
     font-size: 60px;
@@ -14,8 +15,9 @@
     font-weight: 100;
     color: rgb(110, 110, 110);
     position: relative;
-    top: 100px;
-    left: 120px;
+    top: 20px;
+    left: 100px;
+    margin: 25px;
 }
 .l3{
     font-size: 32px;
@@ -23,33 +25,35 @@
     font-weight: 200;
     color: rgb(110, 110, 110);
     position: relative;
-    top: 87px;
-    left: 800px;
+    top: 0px;
+    left: 600px;
+    margin: 10px;
 }
 
 div h1 i{
       color: red;
       position: relative;
-      left: 610px;
-      top: 88px;
+      left: 390px;
+      top: 0px;
+      margin: 10px;
 }
 
 .container{
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-around; */
+  display: flex;
+  flex-wrap: wrap;
 
 }
 .conti1{
     border: 1px solid red;
-    height: 400px;
-    width: 200px;
+    height: 300px;
+    width: 270px;
     border-radius: 20px;
     position: relative;
-    left: 100px;
-    top: 100px;
-    margin: 30px;
-    padding: 5px;
+    left: 70px;
+    top: 0px;
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-top: 20px;
     box-shadow: 15px 15px 20px rgb(207, 207, 207);
 }
 .con{
@@ -143,21 +147,25 @@ div h1 i{
     @media screen and (min-width: 360px) and (max-width: 380px) {
         
         .l1{
-            font-size: 105px;
+            font-size: 80px;
             font-family: 'Montserrat', sans-serif;
             font-weight: 500;
             position: relative;
-            top: 100px;
-            left: 30px;
+            top: 30px;
+            left: 10px;
+            margin: 10px;
+            padding: 0px;
         }
         .l2{    
-            font-size: 105px;
+            font-size: 80px;
             font-family: 'Montserrat', sans-serif;
             font-weight: 100;
             color: rgb(110, 110, 110);
             position: absolute;
-            top: 120px;
-            left: 345px;
+            top: 30px;
+            left: 250px;
+            margin: 20px;
+            padding: 0px;
         }
         .l3{
             font-size: 0px;
@@ -165,7 +173,7 @@ div h1 i{
             font-weight: 200;
             color: rgb(110, 110, 110);
             position: relative;
-            top: 87px;
+            top: 86px;
             left: 850px;
         }
         .con{
@@ -198,30 +206,32 @@ div h1 i{
         
         div h1 i{
               color: red;
-              position: relative;
-              left: 600px;
-              top: 0px;
-              font-size: 70px;
+              position: absolute;
+              left: 490px;
+              top: 65px;
+              font-size: 60px;
         }
         
         .container{
             display: flex;
             flex-direction: column;
-            margin: auto;
-            padding: 30px;
+            margin: 10px;
+            margin-right: 10px;
+            padding: 5px;
 
-            justify-content: space-evenly;
+            /* justify-content: space-evenly; */
         }
         .conti1{
             border: 1px solid red;
-            height: 20vh;
-            width: 600px;
-            margin: auto;
-            padding: 10px;
+            height: 15vh;
+            width: 140vw;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 0px;
             border-radius: 20px;
             position: relative;
             left: 0px;
-            top: 100px;
+            top: 50px;
             box-shadow: 15px 15px 20px rgb(207, 207, 207);
         }
         
